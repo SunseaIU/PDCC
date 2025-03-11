@@ -23,9 +23,9 @@ for i = 2:2
     
     % [Xs, Ys] = load_data();
     
-    lambdalib=10.^(0:0);
-    alphalib=10.^(0:0);
-    betalib=10.^(2:2);
+    lambdalib=2.^(-10:10);
+    alphalib=2.^(-10:10);
+    betalib=2.^(-10:10);
     dimlib=[10: 10: 100];
     
     for t=1:length(dimlib)
